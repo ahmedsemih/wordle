@@ -6,7 +6,7 @@
   --wrong-place: #c8b653;
   --background-color: #151515;
   --text-color: #fff;
-  --border-color: #555;
+  --border-color: #454545;
 }
 
 * {
@@ -17,8 +17,21 @@
 }
 
 body {
-  width: 100%;
-  height: 100%;
+  width: 100dvw;
+  height: 100dvh;
   background-color: var(--background-color);
   color: var(--text-color);
+  overflow: hidden;
+}
+
+.exists {
+  background-color: var(--exists) !important;
+}
+
+.not-exists {
+  background-color: var(--not-exists) !important;
+}
+
+.wrong-place {
+  background-color: var(--wrong-place) !important;
 }
