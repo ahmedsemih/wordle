@@ -29,6 +29,21 @@ export const WORDS = [
   "xerox",
   "young",
   "zebra",
+  "water",
+  "death",
+  "world",
+  "earth",
+  "peace",
+  "music",
+  "light",
+  "night",
+  "dream",
+  "space",
+  "color",
+  "black",
+  "white",
+  "green",
+  "brown",
 ];
 
 export const initialLetterClasses: LetterClassesType  = {
