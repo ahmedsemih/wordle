@@ -39,15 +39,15 @@ const GuessRow: FC<GuessRowProps> = ({ index }) => {
         <Letter
           key={letterIndex}
           letter={guesses[index] ? guesses[index][letterIndex] : ""}
-          css={rowResults[letterIndex]}
+          resultClass={rowResults[letterIndex]}
         />
       ))}
     </div>
   );
 };
 
-const Letter = ({ letter, css }: { letter: string; css: string }) => {
-  return <span className={styles.letter + " " + css}>{letter}</span>;
+const Letter = ({ letter, resultClass }: { letter: string; resultClass: string }) => {
+  return <span className={styles.letter + " " + resultClass}>{letter}</span>;
 };
 
 export default GuessRow;
