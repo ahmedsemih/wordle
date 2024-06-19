@@ -1,0 +1,49 @@
+.backDrop {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.modalBody {
+  width: min(100%, 400px);
+  height: 400px;
+  background: var(--background-color);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.modalTitle {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+
+.modalText {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.answer {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.button {
+  padding: 1rem 2rem;
+  width: 100%;
+  background-color: var(--border-color);
+  color: var(--text-color);
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-top: auto;
+}
